@@ -1,0 +1,157 @@
+html {
+  height: 100%;
+  background: 50% 50% no-repeat
+    url('data:image/svg+xml,a <svg viewBox="-20 -5 60 40" width="140" xmlns="http://www.w3.org/2000/svg" opacity="0.2"><path d="M1 8l11-7 11 7v8l-11 7-11-7zm0 0l11 8 11-8m0 8L12 8 1 16M12 1v7m0 8v7" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2"/><text x="-12" y="32" font-size="5" font-family="monospace" fill="currentColor">Built on CodePen</text></svg>');
+}
+body{
+  background-color: #F2842F;
+  text-align: center;
+}
+header
+
+{
+  
+  font-family: "Google Sans Flex", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100,
+    "GRAD" 0,
+    
+    "ROND" 0;
+}
+nav {
+  background-color: white;
+  padding: 15px;
+  display: flex;
+  gap: 30px;
+}
+nav a {
+  color: #1DCED8;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+nav a:hover {
+  color: black;
+  text-decoration: underline;
+}
+nav {
+  background-color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+}
+body {
+  margin: 0;
+  background-color: #F2842F;
+  text-align: center;
+  padding-top: 55px;
+}
+nav{
+  background-color: #white;
+  color: black;
+  top:0;
+  position:fixed;
+  padding:15px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  z-index:1000;
+}
+nav a{
+  color:black;
+}
+nav a:hover{
+  color:orange;
+}
+.Dishes{
+  background-color: #FFF2F2; 
+  max-width:100%;
+}
+.Dishes img{
+  width:400px;
+  max-width: 90%;
+  height: auto;
+}
+.Dishes{
+ 
+.google-sans-flex-<uniquifier> {
+  font-family: "Google Sans Flex", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100,
+    "GRAD" 0,
+    "ROND" 0;
+} 
+}
+ul{
+  list-style-type: none;
+  padding:0;
+  
+
+.google-sans-flex-<uniquifier> {
+  font-family: "Google Sans Flex", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100,
+    "GRAD" 0,
+    "ROND" 0;
+}
+}
+li{
+  font-size:26px;
+}
+
+@media (max-width: 600px) {
+
+  nav {
+    padding: 10px 5px;
+    gap: 8px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  nav a {
+    font-size: 12px;
+  }
+
+  header h1 {
+    font-size: 25px;
+  }
+
+  header h3 {
+    font-size: 16px;
+  }
+
+  .Dishes {
+    width: 100%;
+  }
+
+  .Dishes img {
+    width: 90%;
+    height: auto;
+  }
+
+  .Dishes p {
+    font-size: 15px;
+    padding: 0 15px;
+  }
+
+  ul li {
+    font-size: 16px;
+  }
+}
