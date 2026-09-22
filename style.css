@@ -1,105 +1,162 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="./style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spain In Every Bite</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap" rel="stylesheet">
-  </head>
-  <body>
-<header>
-  <nav>
-       <a href="#Starters">Entradas</a> 
-        <a href="#MainCourse">Plato Principal</a>
-        <a href="#Desserts">Postres</a>
-          <a href="#Drinks">Bebidas</a>
+html {
+  height: 100%;
+  background: 50% 50% no-repeat
+    url('data:image/svg+xml,a <svg viewBox="-20 -5 60 40" width="140" xmlns="http://www.w3.org/2000/svg" opacity="0.2"><path d="M1 8l11-7 11 7v8l-11 7-11-7zm0 0l11 8 11-8m0 8L12 8 1 16M12 1v7m0 8v7" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2"/><text x="-12" y="32" font-size="5" font-family="monospace" fill="currentColor">Built on CodePen</text></svg>');
+}
+body{
+  text-align: center;
+}
+header
+
+{
+  
+  font-family: "Google Sans Flex", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100,
+    "GRAD" 0,
     
-  </nav>
-  <img src="https://i.ibb.co/FqBsy1Tb/Team-Members.png" alt="Team-Members" border="0" id="Team">
-</header>
-    <div class="Dishes" id=Starters>
-      <h1>Entradas</h1>
-      <h2>Starters</h2>
-      <div class="Dish">
-        <img src="https://www.simplyrecipes.com/thmb/UiqoGtmbOYp9o8TLFJU_CuPz2Q4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/simply-recipes-patatas-bravas-lead-3-eca48aed6f9b4c4db38c35fdd1dc1509.jpg">
-        <p>
-         <strong>Patatas bravas</strong> is a traditional and popular Spanish tapas dish made from crispy, golden-fried potato cubes served with a spicy tomato-based bravas sauce, often accompanied by creamy aioli, giving it a delicious combination of crispy, spicy, and creamy flavours. 
-        </p>
-      </div>
-      <div class="Dish"
-      <div>
-        <img src="https://www.saveur.com/uploads/2012/09/Pan_Con_Tomate_363_4x5-scaled.jpg?auto=webp">
-        <p>
-          <strong>Pan con tomate</strong> is a traditional and simple Spanish dish from Catalonia, made with toasted bread rubbed with ripe tomatoes and garlic, then drizzled with olive oil and sprinkled with salt, giving it a fresh, savoury, and delicious flavour.
-        </p>
-      </div>
-          <div class="Dish"
-            <div>
-              <img src="https://www.kikkoman.eu/fileadmin/_processed_/e/4/csm_F1011-recipe-page-fruity-asian-duck-quesadilla_Mobile_6e71e300a2.webp">
-              <p>
-                A <strong>Quesadilla</strong> is a popular Mexican dish consisting of a tortilla—usually flour or corn—filled primarily with melted cheese. It is folded in half into a half-moon shape and cooked on a griddle until the outside is crispy and golden and the inside is gooey.
-              </p>
-        </div>
-          <div class="Dish"
-            <div>
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyRi7Lw-UZmVFmDFaHc0XDmtnimcFmCNyaRwicMWL02w&s=10">
-              <p>
-                <strong>Nachos con guacamole</strong> is a popular and tasty dish made with crispy tortilla chips served with creamy guacamole prepared from ripe avocados, lime juice, tomatoes, onions, and herbs, giving it a fresh, crunchy, and flavourful taste.
-              </p>
-            </div>
-             <div class="Dishes" id=MainCourse>
-      <h1>Plato Principal</h1>
-      <h2>Main Course</h2>
-      <div class="Dish">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE5811h4EZ1nJ8s_YT0tQ919L0x90EX_VixMxW5Unb0A&s=10">
-        <p>
-          <strong>Vegetable paella</strong> is a traditional and colourful Spanish rice dish made with fresh vegetables, rice, saffron, and flavourful spices, all cooked together in a wide pan, giving it a rich, aromatic, and delicious taste.
-        </p>
-         <div class="Dish">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiu-p2Q0o4FdguBzLvYvx6ldIO39LyGpAOAoETZ5DCag&s=10">
-        <p>
-          <strong>Tacos</strong> are a popular and flavourful Mexican dish made with soft or crispy tortillas filled with vegetables, beans, cheese, salsa, and other toppings. They offer a delicious combination of fresh, spicy, and savoury flavours and can be easily customized with different fillings.
-        </p>
-        <div class="Dish">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMoQOpVqWeRPNcQSx-dRADZcSelIt5sShlELghWLiC5A&s=10">
-        <p>
-          <strong>Pimientos de Padrón</strong> is a traditional Spanish tapas dish from Galicia, made with small green peppers fried in olive oil and sprinkled with sea salt. They have a mild, slightly smoky flavour, although occasionally you may find a surprisingly spicy one!
-        </p>   
-      </div>
-           <div class="Dishes" id=Desserts>
-      <h1>Postres</h1>
-      <h2>Desserts</h2>
-      <div class="Dish">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH5PKgL50va9jOqN4KYuHqhKdh8PNI8UjaD3tTygz9Tw&s=10">
-        <p>
-          <strong>Churros</strong> are a popular Spanish sweet treat made from fried dough that is crispy on the outside and soft on the inside, often coated with sugar and cinnamon. They are commonly served warm with thick hot chocolate for dipping, making them a delicious and comforting dessert.
-        </p>
-      </div>
-          <div class="Dish">
-        <img src="https://images.177milkstreet.com/production/40197792b213960f4428a5f4b4a17a84cf4adcc6-2400x1600.jpg?w=3840&h=2560&q=80&auto=format&fit=max">
-        <p>
-         <strong>Tarta de Santiago</strong> is a traditional Spanish almond cake originating from Galicia, known for its moist texture and rich, nutty flavor. It is naturally gluten-free, made primarily with ground almonds, eggs, and sugar, and often scented with lemon zest or cinnamon. The cake is famously finished with a dusting of powdered sugar, leaving the imprint of the Cross of Saint James on top. 
-        </p>
-          </div>
-         <div class="Dishes" id=Drinks>
-      <h1>Bebidas</h1>
-      <h2>Drinks</h2>
-      <div class="Dish">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-9VgPEbKG8Uhyh1_V6EvbMajawo2nvm-ePL-VMewKXA&s=10">
-        <p>
-          <strong>Horchata de chufa</strong> is a traditional and refreshing Spanish drink from Valencia, made with soaked and ground tiger nuts, water, and sugar. It has a sweet, creamy, and slightly nutty flavour and is usually served cold, making it especially refreshing on hot days.
-        </p>
-        <div class="Dish">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFX3yf5PE2_6yRgp2eqhXOk7aI40uZTle0Z4mRIDzLQg&s=10">
-          <p>
-            <strong>Agua de València</strong> is a refreshing and popular Spanish drink from Valencia, made with fresh orange juice and other flavourful ingredients. It has a sweet, citrusy, and vibrant taste and is usually served chilled, making it a refreshing drink for celebrations and special occasions.
-          </p>
-        </div>
-    </div>
-           <h2>Made by- Aarav Uppal, 6CLS-A</h2>
-    <script src="./script.js"></script>
-  </body>
-</html>
+    "ROND" 0;
+}
+nav {
+  background-color: white;
+  padding: 15px;
+  display: flex;
+  gap: 30px;
+}
+nav a {
+  color: #1DCED8;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+nav a:hover {
+  color: black;
+  text-decoration: underline;
+}
+nav {
+  background-color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+}
+body {
+  margin: 0;
+  text-align: center;
+  padding-top: 55px;
+}
+nav{
+  background-color: #white;
+  color: black;
+  top:0;
+  position:fixed;
+  padding:15px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  z-index:1000;
+}
+nav a{
+  color:black;
+}
+nav a:hover{
+  color:orange;
+}
+.Dishes{
+  background-color: #FFF2F2; 
+  max-width:100%;
+}
+.Dishes img{
+  width:400px;
+  max-width: 90%;
+  height: auto;
+}
+.Dishes{
+ 
+.google-sans-flex-<uniquifier> {
+  font-family: "Google Sans Flex", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100,
+    "GRAD" 0,
+    "ROND" 0;
+} 
+}
+ul{
+  list-style-type: none;
+  padding:0;
+  
+
+.google-sans-flex-<uniquifier> {
+  font-family: "Google Sans Flex", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100,
+    "GRAD" 0,
+    "ROND" 0;
+}
+}
+li{
+  font-size:26px;
+}
+
+@media (max-width: 600px) {
+
+  nav {
+    padding: 10px 5px;
+    gap: 8px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  nav a {
+    font-size: 12px;
+  }
+
+  header h1 {
+    font-size: 25px;
+  }
+
+  header h3 {
+    font-size: 16px;
+  }
+
+  .Dishes {
+    width: 100%;
+  }
+
+  .Dishes img {
+    width: 90%;
+    height: auto;
+  }
+
+  .Dishes p {
+    font-size: 15px;
+    padding: 0 15px;
+  }
+
+  ul li {
+    font-size: 16px;
+  }
+}
+
+#Team{
+  width:100%;
+}
+.Dish p{
+  text-align: justify;
+}
